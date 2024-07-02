@@ -1,5 +1,5 @@
 # MCFEP
-Here are two example runs to get familiar with MCFEP, using the Schrodinger Suite, one for a small molecule, one for protein-protein. The essential idea is using pulling restraints to morph the initial lambda0 input into a target conformation, and replace by default the second half of the FEP windows with the pre-built target conformer.
+Here are two example runs to get familiar with MCFEP, using the Schrodinger Suite, one for a small molecule, one for protein-protein. The essential idea is using pulling restraints to morph the initial lambda0 input into a target conformation, and replace by default the second half of the FEP windows with the pre-built target conformer. Due to the usage of symbolic links and Github not able to maintain them as-is, the runs are stored in mcfepExampleRuns.zip.
 
 ### Small molecule MCFEP, calculating relative binding energy of PDB:5J64 ligand to PDB: 5J9X ligand, experimental ddG=-1.5
 
