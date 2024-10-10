@@ -45,3 +45,6 @@ The coordinates in the target structure file should be pre-aligned to the starti
 ### For running a new system
 The RMSD measurements criteria is system-specific and manually defined in 1.view.sh. This should be changed for a new system, if RMSD measurements (with cpptraj) are being used. For small molecule ligands, residues near it can be auto-detected once the ligand number and ligand residue name is provided, and autoregion=1 is set, in 1.view.sh.
 Additionally, routine features like the settings of the solvent leg asl in protein FEP should also be changed as needed. The example runs try to be an inclusive template, but will not automatically include all run cases. Regular experience with Desmond simulations or FEP+ should be sufficient to facilitate the process. For any questions, you may send an email to liaojunzhuo AT gmail.com
+
+### Citation and contact info
+If you find our method helpful, please cite : J. Chem. Theory Comput. 2024, 20, 19, 8609–8623, https://doi.org/10.1021/acs.jctc.4c00954. For any assistance, please contact liaojunzhuo AT gmail.com
